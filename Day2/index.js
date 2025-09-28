@@ -34,4 +34,4 @@ let server = http.createServer( (req,res)=>{
 })
 
 
-server.listen("8000") // http://localhost:8000
+server.listen("6000") // http://localhost:8000
