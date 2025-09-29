@@ -1,7 +1,8 @@
         // use POST method
 let express = require("express")
 let app = express()
-app.use(express.json());
+//app.use(express.json());
+// use Query type
 
 app.post("/",(req,res)=>{
           console.log(req.body)
@@ -10,7 +11,7 @@ app.post("/",(req,res)=>{
                     status:1,
                     name:"Abhinav",
                     address:"Unnao",
-                     data: req.body
+                    data:req.query
 
           })
 })
